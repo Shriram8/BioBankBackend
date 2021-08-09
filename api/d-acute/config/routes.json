@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/d-acutes",
+      "handler": "d-acute.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/d-acutes/count",
+      "handler": "d-acute.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/d-acutes/:id",
+      "handler": "d-acute.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/d-acutes",
+      "handler": "d-acute.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/d-acutes/:id",
+      "handler": "d-acute.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/d-acutes/:id",
+      "handler": "d-acute.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

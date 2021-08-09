@@ -1,0 +1,151 @@
+{
+  "kind": "collectionType",
+  "collectionName": "d_convalescent",
+  "info": {
+    "name": "D_convalescent",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "at_least_two_weeks_out_from_PCR": {
+      "type": "integer"
+    },
+    "consent_date": {
+      "type": "date"
+    },
+    "end_date": {
+      "type": "date"
+    },
+    "requirement_yale_imapct": {
+      "type": "integer"
+    },
+    "no_PASC_is_0_and_PASC_is_1": {
+      "type": "integer"
+    },
+    "at_least_2_weeks_out_from_acute_phase": {
+      "type": "integer"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "age_range": {
+      "type": "integer"
+    },
+    "sex_male_is_0_and_female_is_1": {
+      "type": "integer"
+    },
+    "race_or_ethnicity": {
+      "type": "string"
+    },
+    "height_m": {
+      "type": "float"
+    },
+    "weight_is_kg": {
+      "type": "float"
+    },
+    "BMI": {
+      "type": "float"
+    },
+    "BMI_T": {
+      "type": "string"
+    },
+    "employed_full_time_student_retired_on_disablity_not_employed": {
+      "type": "string"
+    },
+    "still_employed": {
+      "type": "string"
+    },
+    "tobacco_use_neversmoked_0_pastsmoker_1_or_currentsmoker_2": {
+      "type": "integer"
+    },
+    "packs_per_day": {
+      "type": "integer"
+    },
+    "number_of_years": {
+      "type": "integer"
+    },
+    "how_many_other_individuals_are_in_the_participants_household": {
+      "type": "integer"
+    },
+    "zipcode": {
+      "type": "integer"
+    },
+    "other_complications": {
+      "type": "string"
+    },
+    "record_id": {
+      "type": "string"
+    },
+    "date_of_positive_SARSCoV2_PCR": {
+      "type": "date"
+    },
+    "date_of_first_collection": {
+      "type": "date"
+    },
+    "number_of_days_between_PCR_plus_and_first_collection": {
+      "type": "integer"
+    },
+    "date_of_second_collection": {
+      "type": "date"
+    },
+    "number_of_days_between_PCR__and_second_collection": {
+      "type": "integer"
+    },
+    "date_of_third_collection": {
+      "type": "date"
+    },
+    "number_of_days_between_PCR_and_third_collection": {
+      "type": "integer"
+    },
+    "date_of_fourth_collection": {
+      "type": "date"
+    },
+    "number_of_days_between_PCR_and_fourth_collection": {
+      "type": "integer"
+    },
+    "Intubation": {
+      "type": "integer"
+    },
+    "oxygen_used_at_hospital": {
+      "type": "integer"
+    },
+    "if_yes_how_much_oxygen": {
+      "type": "string"
+    },
+    "diagnosed_with_DVT_or_PE_clot_after_diagnosis": {
+      "type": "integer"
+    },
+    "if_yes_to_VTE_was_it_a_PE_or_DVT": {
+      "type": "integer"
+    },
+    "if_yes_to_DVT_locations_RLE_RUE_LLE_and_LUE": {
+      "type": "integer"
+    },
+    "medications_used_to_treat_COVID19": {
+      "type": "string"
+    },
+    "past_medical_history": {
+      "type": "string"
+    },
+    "medications_taking_at_time_of_COVID19_diagnosis": {
+      "type": "string"
+    },
+    "can_we_follow_up_with_you_in_6_months": {
+      "type": "integer"
+    },
+    "Comments": {
+      "type": "string"
+    },
+    "hospitalized": {
+      "type": "string"
+    },
+    "date_of_birth": {
+      "type": "date"
+    }
+  }
+}

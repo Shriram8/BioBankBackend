@@ -1,0 +1,259 @@
+{
+  "kind": "collectionType",
+  "collectionName": "s_acute_1s",
+  "info": {
+    "name": "s_acute_1",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "record_id": {
+      "type": "string"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "pcr_plus_date": {
+      "type": "date"
+    },
+    "visit_date": {
+      "type": "date"
+    },
+    "visit_number": {
+      "type": "integer"
+    },
+    "days_post_pcr_plus": {
+      "type": "integer"
+    },
+    "any_symptoms": {
+      "type": "integer"
+    },
+    "headache": {
+      "type": "integer"
+    },
+    "dizziness": {
+      "type": "integer"
+    },
+    "loss_of_consciousness": {
+      "type": "integer"
+    },
+    "deafness": {
+      "type": "integer"
+    },
+    "numbness_in_extremities": {
+      "type": "integer"
+    },
+    "tingling_in_extremities": {
+      "type": "integer"
+    },
+    "burning_sensation_in_extremities": {
+      "type": "integer"
+    },
+    "loss_of_taste": {
+      "type": "integer"
+    },
+    "loss_of_smell": {
+      "type": "integer"
+    },
+    "change_in_taste": {
+      "type": "integer"
+    },
+    "forgetful_or_absent_minded": {
+      "type": "integer"
+    },
+    "confusion": {
+      "type": "integer"
+    },
+    "difficulty_concentrating": {
+      "type": "integer"
+    },
+    "eye_pain": {
+      "type": "integer"
+    },
+    "eye_redness": {
+      "type": "integer"
+    },
+    "eye_tearing": {
+      "type": "integer"
+    },
+    "light_sensitivity": {
+      "type": "integer"
+    },
+    "floaters": {
+      "type": "integer"
+    },
+    "loss_of_vision": {
+      "type": "integer"
+    },
+    "blurry_vision": {
+      "type": "integer"
+    },
+    "flashes_of_light": {
+      "type": "integer"
+    },
+    "eye_burning": {
+      "type": "integer"
+    },
+    "sore_throat": {
+      "type": "integer"
+    },
+    "runny_nose_or_congestion": {
+      "type": "integer"
+    },
+    "sinusitis": {
+      "type": "integer"
+    },
+    "facial_pressure": {
+      "type": "integer"
+    },
+    "neck_pain": {
+      "type": "integer"
+    },
+    "mouth_sores": {
+      "type": "integer"
+    },
+    "palpitations": {
+      "type": "integer"
+    },
+    "chest_pain": {
+      "type": "integer"
+    },
+    "lower_extremity_swelling": {
+      "type": "integer"
+    },
+    "chest_burning": {
+      "type": "integer"
+    },
+    "chest_pressure": {
+      "type": "integer"
+    },
+    "rapid_heart_rate": {
+      "type": "integer"
+    },
+    "difficulty_breathing": {
+      "type": "integer"
+    },
+    "cough": {
+      "type": "integer"
+    },
+    "phlegm_in_back_of_throat": {
+      "type": "integer"
+    },
+    "wheezing": {
+      "type": "integer"
+    },
+    "abdominal_pain": {
+      "type": "integer"
+    },
+    "diarrhea": {
+      "type": "integer"
+    },
+    "nausea": {
+      "type": "integer"
+    },
+    "reflux": {
+      "type": "integer"
+    },
+    "constipation": {
+      "type": "integer"
+    },
+    "vomiting": {
+      "type": "integer"
+    },
+    "rash": {
+      "type": "integer"
+    },
+    "easy_bruising": {
+      "type": "integer"
+    },
+    "dry_skin": {
+      "type": "integer"
+    },
+    "itching": {
+      "type": "integer"
+    },
+    "jaundice": {
+      "type": "integer"
+    },
+    "muscle_or_body_aches": {
+      "type": "integer"
+    },
+    "exercise_intolerance": {
+      "type": "integer"
+    },
+    "joint_pain": {
+      "type": "integer"
+    },
+    "weakness": {
+      "type": "integer"
+    },
+    "back_pain": {
+      "type": "integer"
+    },
+    "erectile_dysfunction": {
+      "type": "integer"
+    },
+    "amenorrhea": {
+      "type": "integer"
+    },
+    "fevers": {
+      "type": "integer"
+    },
+    "fatigue": {
+      "type": "integer"
+    },
+    "appetite_loss": {
+      "type": "integer"
+    },
+    "anxiety": {
+      "type": "integer"
+    },
+    "depression": {
+      "type": "integer"
+    },
+    "difficulty_sleeping": {
+      "type": "integer"
+    },
+    "bleeding": {
+      "type": "integer"
+    },
+    "clot": {
+      "type": "integer"
+    },
+    "hair_loss": {
+      "type": "integer"
+    },
+    "night_sweats": {
+      "type": "integer"
+    },
+    "other": {
+      "type": "integer"
+    },
+    "Are_you_seeing_a_physician_for_these_symptoms": {
+      "type": "integer"
+    },
+    "what_medications_are_you_taking_for_these_symptoms": {
+      "type": "integer"
+    },
+    "have_you_received_the_vaccine": {
+      "type": "integer"
+    },
+    "pfizer1_moderna2_astrazenaca3_other4": {
+      "type": "integer"
+    },
+    "date_of_first_vaccine": {
+      "type": "date"
+    },
+    "did_you_receive_the_second_dose": {
+      "type": "integer"
+    },
+    "date_of_second_vaccine": {
+      "type": "integer"
+    }
+  }
+}

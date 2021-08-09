@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "s_control_symptoms_physicians",
+  "info": {
+    "name": "S_control_symptoms_physician"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "are_you_seeing_a_physician": {
+      "type": "integer"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "visitor_detail": {
+      "via": "s_control_symptoms_physician",
+      "model": "visitor-details"
+    }
+  }
+}

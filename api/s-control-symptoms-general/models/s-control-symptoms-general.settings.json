@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "s_control_symptoms_generals",
+  "info": {
+    "name": "S_control_symptoms_general",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fevers": {
+      "type": "integer"
+    },
+    "fatigue": {
+      "type": "integer"
+    },
+    "appetite_loss": {
+      "type": "integer"
+    },
+    "anxiety": {
+      "type": "integer"
+    },
+    "depression": {
+      "type": "integer"
+    },
+    "difficulty_sleeping": {
+      "type": "integer"
+    },
+    "bleeding": {
+      "type": "integer"
+    },
+    "clot": {
+      "type": "integer"
+    },
+    "hair_loss": {
+      "type": "integer"
+    },
+    "night_sweats": {
+      "type": "integer"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "record_id": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/control-symptoms-neurologics",
+      "handler": "control-symptoms-neurologic.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/control-symptoms-neurologics/count",
+      "handler": "control-symptoms-neurologic.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/control-symptoms-neurologics/:id",
+      "handler": "control-symptoms-neurologic.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/control-symptoms-neurologics",
+      "handler": "control-symptoms-neurologic.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/control-symptoms-neurologics/:id",
+      "handler": "control-symptoms-neurologic.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/control-symptoms-neurologics/:id",
+      "handler": "control-symptoms-neurologic.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

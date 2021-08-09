@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-physicians",
+      "handler": "s-control-symptoms-physician.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-physicians/count",
+      "handler": "s-control-symptoms-physician.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-physicians/:id",
+      "handler": "s-control-symptoms-physician.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/s-control-symptoms-physicians",
+      "handler": "s-control-symptoms-physician.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/s-control-symptoms-physicians/:id",
+      "handler": "s-control-symptoms-physician.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/s-control-symptoms-physicians/:id",
+      "handler": "s-control-symptoms-physician.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

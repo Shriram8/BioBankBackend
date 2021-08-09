@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-musculoskeletals",
+      "handler": "s-control-symptoms-musculoskeletal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-musculoskeletals/count",
+      "handler": "s-control-symptoms-musculoskeletal.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-musculoskeletals/:id",
+      "handler": "s-control-symptoms-musculoskeletal.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/s-control-symptoms-musculoskeletals",
+      "handler": "s-control-symptoms-musculoskeletal.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/s-control-symptoms-musculoskeletals/:id",
+      "handler": "s-control-symptoms-musculoskeletal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/s-control-symptoms-musculoskeletals/:id",
+      "handler": "s-control-symptoms-musculoskeletal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

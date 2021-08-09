@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/d-controls",
+      "handler": "d-control.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/d-controls/count",
+      "handler": "d-control.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/d-controls/:id",
+      "handler": "d-control.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/d-controls",
+      "handler": "d-control.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/d-controls/:id",
+      "handler": "d-control.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/d-controls/:id",
+      "handler": "d-control.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

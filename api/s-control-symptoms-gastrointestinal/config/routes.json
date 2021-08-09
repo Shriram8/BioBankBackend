@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-gastrointestinals",
+      "handler": "s-control-symptoms-gastrointestinal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-gastrointestinals/count",
+      "handler": "s-control-symptoms-gastrointestinal.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-gastrointestinals/:id",
+      "handler": "s-control-symptoms-gastrointestinal.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/s-control-symptoms-gastrointestinals",
+      "handler": "s-control-symptoms-gastrointestinal.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/s-control-symptoms-gastrointestinals/:id",
+      "handler": "s-control-symptoms-gastrointestinal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/s-control-symptoms-gastrointestinals/:id",
+      "handler": "s-control-symptoms-gastrointestinal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

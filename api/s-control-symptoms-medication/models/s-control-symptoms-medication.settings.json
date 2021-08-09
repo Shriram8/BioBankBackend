@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "s_control_symptoms_medications",
+  "info": {
+    "name": "S_control_symptoms_medication"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "what_medications_are_you_taking_for_these_symptoms": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "s_control_symptoms_pulmonaries",
+  "info": {
+    "name": "S_control_symptoms_pulmonary",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "difficulty_breathing_dyspnea": {
+      "type": "integer"
+    },
+    "cough": {
+      "type": "integer"
+    },
+    "phlegm_in_back_of_throat": {
+      "type": "integer"
+    },
+    "wheezing": {
+      "type": "integer"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "record_id": {
+      "type": "string"
+    }
+  }
+}

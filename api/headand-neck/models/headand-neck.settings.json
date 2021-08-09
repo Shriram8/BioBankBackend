@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "s_control_symptoms_head_and_necks",
+  "info": {
+    "name": "S_control_symptoms_head_and_neck",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sore_throat": {
+      "type": "integer"
+    },
+    "runny_nose_or_congestestion": {
+      "type": "integer"
+    },
+    "sinusitis": {
+      "type": "integer"
+    },
+    "facial_pressure": {
+      "type": "integer"
+    },
+    "neck_pain": {
+      "type": "integer"
+    },
+    "mouth_sores": {
+      "type": "integer"
+    },
+    "visit_count": {
+      "type": "integer"
+    }
+  }
+}

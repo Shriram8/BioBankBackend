@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "s_control_symptoms_musculoskeletals",
+  "info": {
+    "name": "S_control_symptoms_musculoskeletal",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "muscle_or_body_aches_myalgia": {
+      "type": "integer"
+    },
+    "exercise_intolerance": {
+      "type": "integer"
+    },
+    "joint_pain": {
+      "type": "integer"
+    },
+    "weakness": {
+      "type": "integer"
+    },
+    "backpain": {
+      "type": "integer"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "record_id": {
+      "type": "string"
+    }
+  }
+}

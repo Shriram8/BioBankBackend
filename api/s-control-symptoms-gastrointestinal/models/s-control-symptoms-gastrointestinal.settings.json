@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "s_control_symptoms_gastrointestinals",
+  "info": {
+    "name": "S_control_symptoms_gastrointestinal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "record_id": {
+      "type": "string"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "abdominal_pain": {
+      "type": "integer"
+    },
+    "diarrhea": {
+      "type": "integer"
+    },
+    "nausea": {
+      "type": "integer"
+    },
+    "reflux": {
+      "type": "integer"
+    },
+    "constipation": {
+      "type": "integer"
+    },
+    "vomiting": {
+      "type": "integer"
+    }
+  }
+}

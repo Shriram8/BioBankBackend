@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "s_control_symptoms_oculars",
+  "info": {
+    "name": "S_control_symptoms_ocular",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "eye_pain": {
+      "type": "integer"
+    },
+    "eye_redness": {
+      "type": "integer"
+    },
+    "eye_tearing": {
+      "type": "integer"
+    },
+    "light_sensitivity": {
+      "type": "integer"
+    },
+    "floaters": {
+      "type": "integer"
+    },
+    "loss_of_vision": {
+      "type": "integer"
+    },
+    "blurry_vision": {
+      "type": "integer"
+    },
+    "flashes_of_light": {
+      "type": "integer"
+    },
+    "eye_burning": {
+      "type": "integer"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "record_id": {
+      "type": "string"
+    }
+  }
+}

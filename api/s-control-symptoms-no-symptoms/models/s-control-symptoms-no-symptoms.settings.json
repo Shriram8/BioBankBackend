@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "s_control_symptoms_no_symptoms",
+  "info": {
+    "name": "S_control_symptoms_no_symptoms",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "no_symptoms": {
+      "type": "integer"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "visitor_detail": {
+      "via": "s_control_symptoms_no_symptom",
+      "model": "visitor-details"
+    }
+  }
+}

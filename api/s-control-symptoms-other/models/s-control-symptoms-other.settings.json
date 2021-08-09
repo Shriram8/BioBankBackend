@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "s_control_symptoms_others",
+  "info": {
+    "name": "S_control_symptoms_other"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "other": {
+      "type": "integer"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "visitor_detail": {
+      "via": "s_control_symptoms_other",
+      "model": "visitor-details"
+    }
+  }
+}

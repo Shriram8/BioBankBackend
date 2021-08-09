@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-pulmonaries",
+      "handler": "s-control-symptoms-pulmonary.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-pulmonaries/count",
+      "handler": "s-control-symptoms-pulmonary.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-pulmonaries/:id",
+      "handler": "s-control-symptoms-pulmonary.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/s-control-symptoms-pulmonaries",
+      "handler": "s-control-symptoms-pulmonary.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/s-control-symptoms-pulmonaries/:id",
+      "handler": "s-control-symptoms-pulmonary.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/s-control-symptoms-pulmonaries/:id",
+      "handler": "s-control-symptoms-pulmonary.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

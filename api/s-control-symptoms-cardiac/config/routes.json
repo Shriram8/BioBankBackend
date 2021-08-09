@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-cardiacs",
+      "handler": "s-control-symptoms-cardiac.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-cardiacs/count",
+      "handler": "s-control-symptoms-cardiac.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-cardiacs/:id",
+      "handler": "s-control-symptoms-cardiac.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/s-control-symptoms-cardiacs",
+      "handler": "s-control-symptoms-cardiac.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/s-control-symptoms-cardiacs/:id",
+      "handler": "s-control-symptoms-cardiac.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/s-control-symptoms-cardiacs/:id",
+      "handler": "s-control-symptoms-cardiac.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

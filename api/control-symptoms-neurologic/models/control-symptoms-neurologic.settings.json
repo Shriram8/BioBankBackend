@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "control_symptoms_neurologics",
+  "info": {
+    "name": "S_control_symptoms_neurologic",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dizzines": {
+      "type": "integer"
+    },
+    "lossofconsciouness": {
+      "type": "integer"
+    },
+    "deafness": {
+      "type": "integer"
+    },
+    "numbnessinextremities": {
+      "type": "integer"
+    },
+    "tingling_Inextremities": {
+      "type": "integer"
+    },
+    "burning_sensation_in_extremities": {
+      "type": "integer"
+    },
+    "loss_of_taste_if_yes_for_how_long": {
+      "type": "integer"
+    },
+    "loss_of_smell_if_yes_for_how_long": {
+      "type": "integer"
+    },
+    "change_in_taste": {
+      "type": "integer"
+    },
+    "forgetful_or_absent_minded": {
+      "type": "integer"
+    },
+    "confusion": {
+      "type": "integer"
+    },
+    "difficulty_concentrating": {
+      "type": "integer"
+    }
+  }
+}

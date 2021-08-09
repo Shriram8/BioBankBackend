@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "app_users",
+  "info": {
+    "name": "App_Users"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "uid": {
+      "type": "uid"
+    },
+    "userType": {
+      "type": "enumeration",
+      "enum": [
+        "admin",
+        "user"
+      ]
+    },
+    "password": {
+      "type": "string"
+    }
+  }
+}

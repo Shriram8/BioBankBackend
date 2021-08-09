@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-reproductives",
+      "handler": "s-control-symptoms-reproductive.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-reproductives/count",
+      "handler": "s-control-symptoms-reproductive.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-reproductives/:id",
+      "handler": "s-control-symptoms-reproductive.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/s-control-symptoms-reproductives",
+      "handler": "s-control-symptoms-reproductive.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/s-control-symptoms-reproductives/:id",
+      "handler": "s-control-symptoms-reproductive.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/s-control-symptoms-reproductives/:id",
+      "handler": "s-control-symptoms-reproductive.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

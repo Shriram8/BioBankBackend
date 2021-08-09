@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-medications",
+      "handler": "s-control-symptoms-medication.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-medications/count",
+      "handler": "s-control-symptoms-medication.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-medications/:id",
+      "handler": "s-control-symptoms-medication.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/s-control-symptoms-medications",
+      "handler": "s-control-symptoms-medication.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/s-control-symptoms-medications/:id",
+      "handler": "s-control-symptoms-medication.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/s-control-symptoms-medications/:id",
+      "handler": "s-control-symptoms-medication.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

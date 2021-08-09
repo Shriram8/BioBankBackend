@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-oculars",
+      "handler": "s-control-symptoms-ocular.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-oculars/count",
+      "handler": "s-control-symptoms-ocular.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-oculars/:id",
+      "handler": "s-control-symptoms-ocular.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/s-control-symptoms-oculars",
+      "handler": "s-control-symptoms-ocular.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/s-control-symptoms-oculars/:id",
+      "handler": "s-control-symptoms-ocular.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/s-control-symptoms-oculars/:id",
+      "handler": "s-control-symptoms-ocular.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

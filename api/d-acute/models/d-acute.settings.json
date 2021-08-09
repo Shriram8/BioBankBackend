@@ -1,0 +1,133 @@
+{
+  "kind": "collectionType",
+  "collectionName": "d_acute_1s",
+  "info": {
+    "name": "D_acute",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "consent_date": {
+      "type": "date"
+    },
+    "date_of_positive_SARS_CoV2_PCR": {
+      "type": "date"
+    },
+    "end_date": {
+      "type": "date"
+    },
+    "disease_severity_category": {
+      "type": "integer"
+    },
+    "no_PASC_is_0_and_PASC_is_1": {
+      "type": "integer"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "age_range": {
+      "type": "integer"
+    },
+    "date_of_birth": {
+      "type": "date"
+    },
+    "sex_0_is_male_and_1_is_female": {
+      "type": "integer"
+    },
+    "race_or_ethnicity": {
+      "type": "string"
+    },
+    "height_in_mt": {
+      "type": "float"
+    },
+    "weight_in_kg": {
+      "type": "float"
+    },
+    "BMI": {
+      "type": "float"
+    },
+    "BMI_in_range": {
+      "type": "string"
+    },
+    "employed": {
+      "type": "string"
+    },
+    "tobacco_use_if_yes_how_much": {
+      "type": "string"
+    },
+    "how_many_other_individuals_are_in_the_participants_household": {
+      "type": "integer"
+    },
+    "zipcode": {
+      "type": "integer"
+    },
+    "Notes_for_date_of_positive_SARSCoV2_PCR": {
+      "type": "string"
+    },
+    "date_of_first_collection": {
+      "type": "date"
+    },
+    "number_of_days_between_PCR_plus_and_first_collection": {
+      "type": "integer"
+    },
+    "date_of_second_collection": {
+      "type": "date"
+    },
+    "number_of_days_between_PCR_plus_and_second_collection": {
+      "type": "integer"
+    },
+    "date_of_third_collection": {
+      "type": "date"
+    },
+    "number_of_days_between_PCR_plus_and_third_collection": {
+      "type": "integer"
+    },
+    "date_of_fourth_collection": {
+      "type": "date"
+    },
+    "number_of_days_between_PCR_plus_and_fourth_collection": {
+      "type": "integer"
+    },
+    "hospitalized": {
+      "type": "integer"
+    },
+    "diagnosed_with_DVT_or_PE_clot_after_diagnosis": {
+      "type": "integer"
+    },
+    "oxygen_used_at_hospital": {
+      "type": "integer"
+    },
+    "intubation": {
+      "type": "integer"
+    },
+    "past_medical_history": {
+      "type": "string"
+    },
+    "other_complications": {
+      "type": "string"
+    },
+    "can_we_follow_up_with_you_in_6_months": {
+      "type": "string"
+    },
+    "comments": {
+      "type": "string"
+    },
+    "initial_COVID_symptoms": {
+      "type": "string"
+    },
+    "record_id": {
+      "type": "string"
+    },
+    "if_yes_how_much_oxygen": {
+      "type": "string"
+    },
+    "medications_taking_at_time_of_COVID19_diagnosis": {
+      "type": "richtext"
+    }
+  }
+}

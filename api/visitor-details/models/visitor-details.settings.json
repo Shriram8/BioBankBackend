@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "visitor_details",
+  "info": {
+    "name": "visitorDetails",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Record_ID": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "s_control_symptoms_other": {
+      "via": "visitor_detail",
+      "model": "s-control-symptoms-other"
+    },
+    "s_control_symptoms_physician": {
+      "via": "visitor_detail",
+      "model": "s-control-symptoms-physician"
+    },
+    "s_control_symptoms_no_symptom": {
+      "via": "visitor_detail",
+      "model": "s-control-symptoms-no-symptoms"
+    }
+  }
+}

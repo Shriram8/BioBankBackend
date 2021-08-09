@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "s_control_symptoms_reproductives",
+  "info": {
+    "name": "S_control_symptoms_reproductive",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "erectile_dysfunction": {
+      "type": "integer"
+    },
+    "amenorrhea_loss_of_menstruation_na_postmenopausal": {
+      "type": "integer"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "record_id": {
+      "type": "string"
+    }
+  }
+}

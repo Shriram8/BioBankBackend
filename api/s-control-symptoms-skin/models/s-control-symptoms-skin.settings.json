@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "s_control_symptoms_skins",
+  "info": {
+    "name": "S_control_symptoms_skin",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rash": {
+      "type": "integer"
+    },
+    "easy_bruising": {
+      "type": "integer"
+    },
+    "dry_skin": {
+      "type": "integer"
+    },
+    "itching": {
+      "type": "integer"
+    },
+    "jaundice": {
+      "type": "integer"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "record_id": {
+      "type": "string"
+    }
+  }
+}

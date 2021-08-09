@@ -1,0 +1,116 @@
+{
+  "kind": "collectionType",
+  "collectionName": "d_controls",
+  "info": {
+    "name": "D_control",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "disease": {
+      "type": "enumeration",
+      "enum": [
+        "Asymptomatic",
+        "Mild",
+        "Moderate",
+        "severe_fatal",
+        "NA"
+      ],
+      "default": "NA"
+    },
+    "age": {
+      "type": "integer"
+    },
+    "age_range": {
+      "type": "integer"
+    },
+    "date_of_birth": {
+      "type": "date"
+    },
+    "sex": {
+      "type": "integer"
+    },
+    "race_or_ethnicity": {
+      "type": "string"
+    },
+    "height_mts": {
+      "type": "float"
+    },
+    "Weight_in_pounds": {
+      "type": "float"
+    },
+    "BMI": {
+      "type": "float"
+    },
+    "BMI_text": {
+      "type": "enumeration",
+      "enum": [
+        "NW",
+        "OW",
+        "OB",
+        "OB_plus"
+      ]
+    },
+    "date_of_positive_SARS_CoV2_PCR": {
+      "type": "date"
+    },
+    "date_of_first_collection": {
+      "type": "date"
+    },
+    "hospitalized": {
+      "type": "integer"
+    },
+    "diagnosed_with_DVT_or_PE_clot_after_diagnosis": {
+      "type": "integer"
+    },
+    "oxygen_used_at_hospital": {
+      "type": "integer"
+    },
+    "If_yes_how_much_oxygen": {
+      "type": "integer"
+    },
+    "Intubation": {
+      "type": "integer"
+    },
+    "past_medical_history": {
+      "type": "string"
+    },
+    "Medications_Taking_at_Time_of_COVID19_diagnosis": {
+      "type": "string"
+    },
+    "employed": {
+      "type": "integer"
+    },
+    "Tobacco_Use_If_yes_how_much": {
+      "type": "string"
+    },
+    "how_many_other_individuals_are_in_the_participants_household": {
+      "type": "integer"
+    },
+    "other_complications": {
+      "type": "integer"
+    },
+    "consent_date": {
+      "type": "date"
+    },
+    "end_date": {
+      "type": "date"
+    },
+    "county_zip_code": {
+      "type": "integer"
+    },
+    "comments": {
+      "type": "string"
+    },
+    "record_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

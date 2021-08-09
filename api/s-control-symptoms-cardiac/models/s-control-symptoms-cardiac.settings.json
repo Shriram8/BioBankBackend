@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "s_control_symptoms_cardiacs",
+  "info": {
+    "name": "S_control_symptoms_cardiac",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "record_id": {
+      "type": "string"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "rapid_heart_rate": {
+      "type": "integer"
+    },
+    "chest_pressure": {
+      "type": "integer"
+    },
+    "chest_burning": {
+      "type": "integer"
+    },
+    "lower_extremity_swelling": {
+      "type": "integer"
+    },
+    "chest_pain": {
+      "type": "integer"
+    },
+    "palpitations": {
+      "type": "integer"
+    }
+  }
+}

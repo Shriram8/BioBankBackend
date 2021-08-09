@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-others",
+      "handler": "s-control-symptoms-other.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-others/count",
+      "handler": "s-control-symptoms-other.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/s-control-symptoms-others/:id",
+      "handler": "s-control-symptoms-other.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/s-control-symptoms-others",
+      "handler": "s-control-symptoms-other.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/s-control-symptoms-others/:id",
+      "handler": "s-control-symptoms-other.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/s-control-symptoms-others/:id",
+      "handler": "s-control-symptoms-other.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

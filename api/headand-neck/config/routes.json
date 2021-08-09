@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/headand-necks",
+      "handler": "headand-neck.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/headand-necks/count",
+      "handler": "headand-neck.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/headand-necks/:id",
+      "handler": "headand-neck.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/headand-necks",
+      "handler": "headand-neck.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/headand-necks/:id",
+      "handler": "headand-neck.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/headand-necks/:id",
+      "handler": "headand-neck.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

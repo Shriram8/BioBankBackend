@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quetions",
+  "info": {
+    "name": "quetions"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    }
+  }
+}
