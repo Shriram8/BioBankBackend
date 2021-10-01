@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "noco_cobio_control_PBMCs",
+  "info": {
+    "name": "Noco_Cobio_Control_PBMC",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "record_id": {
+      "type": "string"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "blood_sample": {
+      "type": "integer"
+    },
+    "tubes": {
+      "type": "integer"
+    },
+    "tubes_comment": {
+      "type": "string"
+    },
+    "pbmc": {
+      "type": "integer"
+    },
+    "pbmc_location": {
+      "type": "string"
+    },
+    "pbmc_comment": {
+      "type": "string"
+    },
+    "plasma_in_ml": {
+      "type": "integer"
+    },
+    "plasma_comment": {
+      "type": "string"
+    },
+    "serum": {
+      "type": "integer"
+    },
+    "serum_comment": {
+      "type": "string"
+    },
+    "cell_count_per_tube_per_million": {
+      "type": "integer"
+    },
+    "cell_count_per_million": {
+      "type": "integer"
+    },
+    "cell_count_comment": {
+      "type": "string"
+    },
+    "date_visit": {
+      "type": "date"
+    }
+  }
+}

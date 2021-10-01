@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/patient-inventories",
+      "handler": "patient-inventory.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/patient-inventories/count",
+      "handler": "patient-inventory.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/patient-inventories/:id",
+      "handler": "patient-inventory.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/patient-inventories",
+      "handler": "patient-inventory.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/patient-inventories/:id",
+      "handler": "patient-inventory.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/patient-inventories/:id",
+      "handler": "patient-inventory.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

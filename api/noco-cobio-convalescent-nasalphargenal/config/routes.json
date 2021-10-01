@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/noco-cobio-convalescent-nasalphargenals",
+      "handler": "noco-cobio-convalescent-nasalphargenal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/noco-cobio-convalescent-nasalphargenals/count",
+      "handler": "noco-cobio-convalescent-nasalphargenal.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/noco-cobio-convalescent-nasalphargenals/:id",
+      "handler": "noco-cobio-convalescent-nasalphargenal.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/noco-cobio-convalescent-nasalphargenals",
+      "handler": "noco-cobio-convalescent-nasalphargenal.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/noco-cobio-convalescent-nasalphargenals/:id",
+      "handler": "noco-cobio-convalescent-nasalphargenal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/noco-cobio-convalescent-nasalphargenals/:id",
+      "handler": "noco-cobio-convalescent-nasalphargenal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/noco-cobio-control-nasalpharygenals",
+      "handler": "noco-cobio-control-nasalpharygenal.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/noco-cobio-control-nasalpharygenals/count",
+      "handler": "noco-cobio-control-nasalpharygenal.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/noco-cobio-control-nasalpharygenals/:id",
+      "handler": "noco-cobio-control-nasalpharygenal.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/noco-cobio-control-nasalpharygenals",
+      "handler": "noco-cobio-control-nasalpharygenal.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/noco-cobio-control-nasalpharygenals/:id",
+      "handler": "noco-cobio-control-nasalpharygenal.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/noco-cobio-control-nasalpharygenals/:id",
+      "handler": "noco-cobio-control-nasalpharygenal.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

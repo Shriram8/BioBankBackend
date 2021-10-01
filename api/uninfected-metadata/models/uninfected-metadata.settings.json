@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "uninfected_metadata",
+  "info": {
+    "name": "Uninfected_Metadata",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Record_ID": {
+      "type": "string"
+    },
+    "Disease_severity_category": {
+      "type": "string"
+    },
+    "Age": {
+      "type": "integer"
+    },
+    "Date_of_Birth": {
+      "type": "date"
+    },
+    "Sex": {
+      "type": "integer"
+    },
+    "Race_or_Ethnicity": {
+      "type": "string"
+    },
+    "Height": {
+      "type": "float"
+    },
+    "Weight_in_kg": {
+      "type": "float"
+    },
+    "BMI": {
+      "type": "float"
+    },
+    "BMI_range": {
+      "type": "string"
+    },
+    "Date_of_positive_SARS_COV2_PCR": {
+      "type": "date"
+    },
+    "Date_of_first_collection": {
+      "type": "date"
+    },
+    "Past_medical_history": {
+      "type": "string"
+    },
+    "Employed": {
+      "type": "integer"
+    },
+    "Tobacco_use": {
+      "type": "integer"
+    },
+    "packs_per_day": {
+      "type": "float"
+    },
+    "number_of_years": {
+      "type": "integer"
+    },
+    "number_of_other_individuals_in_participant_household": {
+      "type": "integer"
+    },
+    "Zipcode": {
+      "type": "integer"
+    },
+    "Comments": {
+      "type": "string"
+    },
+    "Age_range": {
+      "type": "integer"
+    }
+  }
+}

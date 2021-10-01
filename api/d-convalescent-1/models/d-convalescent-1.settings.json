@@ -146,6 +146,9 @@
     },
     "date_of_birth": {
       "type": "date"
+    },
+    "visit_count": {
+      "type": "integer"
     }
   }
 }

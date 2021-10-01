@@ -1,0 +1,147 @@
+{
+  "kind": "collectionType",
+  "collectionName": "uninfected_inventories",
+  "info": {
+    "name": "Uninfected_Inventory",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Record_ID": {
+      "type": "string"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "Date_of_Positive_SARS_COV2_PCR": {
+      "type": "date",
+      "default": "2021-01-01T19:00:00.000Z"
+    },
+    "Date_of_first_collection": {
+      "type": "date",
+      "default": "2021-02-01T19:00:00.000Z"
+    },
+    "number_of_days_between_PCR_plus_and_first_collection": {
+      "type": "integer"
+    },
+    "platelet_panel_1": {
+      "type": "integer"
+    },
+    "platelet_panel_2": {
+      "type": "integer"
+    },
+    "platelet_panel_3": {
+      "type": "integer"
+    },
+    "whole_blood_panel": {
+      "type": "integer"
+    },
+    "PBMC_panel": {
+      "type": "integer"
+    },
+    "Plasma": {
+      "type": "integer"
+    },
+    "Plasma_tubes": {
+      "type": "integer"
+    },
+    "plasma_ul_per_tube": {
+      "type": "integer"
+    },
+    "Serum": {
+      "type": "integer"
+    },
+    "Serum_tubes": {
+      "type": "integer"
+    },
+    "Serum_ul_per_tube": {
+      "type": "integer"
+    },
+    "PBMC_tubes": {
+      "type": "integer"
+    },
+    "PBMC_location": {
+      "type": "string"
+    },
+    "Cell_count_per_tube": {
+      "type": "biginteger"
+    },
+    "Cell_count_total": {
+      "type": "biginteger"
+    },
+    "NP_tubes": {
+      "type": "integer"
+    },
+    "NP_storage_box": {
+      "type": "integer"
+    },
+    "NP_PCR_Result": {
+      "type": "integer"
+    },
+    "NP_CT_value": {
+      "type": "float"
+    },
+    "NP_Plaque_Assay_Titer_PFU_per_ml": {
+      "type": "float"
+    },
+    "NP_Plaque_Assay_Ct_Value": {
+      "type": "float"
+    },
+    "Saliva_Sample_No_VTM": {
+      "type": "integer"
+    },
+    "Saliva_Sample_No_VTM_number_of_tubes": {
+      "type": "integer"
+    },
+    "Saliva_sample_No_VTM_ul_amount_per_tube": {
+      "type": "integer"
+    },
+    "Saliva_Sample_with_VTM": {
+      "type": "integer"
+    },
+    "Saliva_plus_VTM_tubes": {
+      "type": "integer"
+    },
+    "Saliva_plus_VTM_Storage_box": {
+      "type": "integer"
+    },
+    "Saliva_PCR_results": {
+      "type": "integer"
+    },
+    "Saliva_CT_value": {
+      "type": "float"
+    },
+    "Saliva_Plaque_Assay_Titer_PFU_per_ml": {
+      "type": "float"
+    },
+    "Saliva_Plaque_Assay_Ct_value": {
+      "type": "float"
+    },
+    "Stool_Sample": {
+      "type": "float"
+    },
+    "Stool_Tube_number": {
+      "type": "float"
+    },
+    "Stool_deidentification_number": {
+      "type": "string"
+    },
+    "Stool_RNA_PCR": {
+      "type": "float"
+    },
+    "stool_RNA_CT_value": {
+      "type": "float"
+    },
+    "Stool_RNA_ddPCR": {
+      "type": "integer"
+    },
+    "Stool_RNA_ddPCR_value": {
+      "type": "float"
+    }
+  }
+}

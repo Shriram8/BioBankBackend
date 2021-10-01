@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/noco-cobio-convalescent-saliva-samples",
+      "handler": "noco-cobio-convalescent-saliva-samples.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/noco-cobio-convalescent-saliva-samples/count",
+      "handler": "noco-cobio-convalescent-saliva-samples.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/noco-cobio-convalescent-saliva-samples/:id",
+      "handler": "noco-cobio-convalescent-saliva-samples.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/noco-cobio-convalescent-saliva-samples",
+      "handler": "noco-cobio-convalescent-saliva-samples.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/noco-cobio-convalescent-saliva-samples/:id",
+      "handler": "noco-cobio-convalescent-saliva-samples.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/noco-cobio-convalescent-saliva-samples/:id",
+      "handler": "noco-cobio-convalescent-saliva-samples.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

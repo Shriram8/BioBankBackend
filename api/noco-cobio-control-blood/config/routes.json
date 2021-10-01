@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/noco-cobio-control-bloods",
+      "handler": "noco-cobio-control-blood.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/noco-cobio-control-bloods/count",
+      "handler": "noco-cobio-control-blood.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/noco-cobio-control-bloods/:id",
+      "handler": "noco-cobio-control-blood.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/noco-cobio-control-bloods",
+      "handler": "noco-cobio-control-blood.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/noco-cobio-control-bloods/:id",
+      "handler": "noco-cobio-control-blood.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/noco-cobio-control-bloods/:id",
+      "handler": "noco-cobio-control-blood.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

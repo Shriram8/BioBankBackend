@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/noco-cobio-control-stools",
+      "handler": "noco-cobio-control-stool.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/noco-cobio-control-stools/count",
+      "handler": "noco-cobio-control-stool.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/noco-cobio-control-stools/:id",
+      "handler": "noco-cobio-control-stool.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/noco-cobio-control-stools",
+      "handler": "noco-cobio-control-stool.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/noco-cobio-control-stools/:id",
+      "handler": "noco-cobio-control-stool.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/noco-cobio-control-stools/:id",
+      "handler": "noco-cobio-control-stool.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

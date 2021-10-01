@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "no_co_cobio_control_salivas",
+  "info": {
+    "name": "NoCo_Cobio_Control_Saliva"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "record_id": {
+      "type": "string"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "date_visit": {
+      "type": "date"
+    },
+    "saliva_sample_in_ml": {
+      "type": "integer"
+    },
+    "saliva_sample_comments": {
+      "type": "string"
+    },
+    "filtered_saliva_pcr_results": {
+      "type": "string"
+    },
+    "saliva_vtm": {
+      "type": "string"
+    },
+    "saliva_pcr_results": {
+      "type": "string"
+    }
+  }
+}

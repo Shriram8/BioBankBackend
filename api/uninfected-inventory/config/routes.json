@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/uninfected-inventories",
+      "handler": "uninfected-inventory.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/uninfected-inventories/count",
+      "handler": "uninfected-inventory.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/uninfected-inventories/:id",
+      "handler": "uninfected-inventory.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/uninfected-inventories",
+      "handler": "uninfected-inventory.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/uninfected-inventories/:id",
+      "handler": "uninfected-inventory.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/uninfected-inventories/:id",
+      "handler": "uninfected-inventory.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

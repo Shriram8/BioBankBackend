@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "noco_cobio_control_nasalpharygenals",
+  "info": {
+    "name": "Noco_Cobio_Control_Nasalpharygenal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "record_id": {
+      "type": "string"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "date_visit": {
+      "type": "date"
+    },
+    "np_sample": {
+      "type": "string"
+    },
+    "np_pcr_result": {
+      "type": "string"
+    },
+    "np_comments": {
+      "type": "string"
+    }
+  }
+}

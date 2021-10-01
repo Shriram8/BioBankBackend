@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/no-co-cobio-control-salivas",
+      "handler": "no-co-cobio-control-saliva.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/no-co-cobio-control-salivas/count",
+      "handler": "no-co-cobio-control-saliva.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/no-co-cobio-control-salivas/:id",
+      "handler": "no-co-cobio-control-saliva.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/no-co-cobio-control-salivas",
+      "handler": "no-co-cobio-control-saliva.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/no-co-cobio-control-salivas/:id",
+      "handler": "no-co-cobio-control-saliva.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/no-co-cobio-control-salivas/:id",
+      "handler": "no-co-cobio-control-saliva.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

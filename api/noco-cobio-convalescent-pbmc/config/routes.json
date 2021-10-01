@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/noco-cobio-convalescent-pbmcs",
+      "handler": "noco-cobio-convalescent-pbmc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/noco-cobio-convalescent-pbmcs/count",
+      "handler": "noco-cobio-convalescent-pbmc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/noco-cobio-convalescent-pbmcs/:id",
+      "handler": "noco-cobio-convalescent-pbmc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/noco-cobio-convalescent-pbmcs",
+      "handler": "noco-cobio-convalescent-pbmc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/noco-cobio-convalescent-pbmcs/:id",
+      "handler": "noco-cobio-convalescent-pbmc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/noco-cobio-convalescent-pbmcs/:id",
+      "handler": "noco-cobio-convalescent-pbmc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

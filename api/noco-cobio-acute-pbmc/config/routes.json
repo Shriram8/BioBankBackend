@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/noco-cobio-acute-pbmcs",
+      "handler": "noco-cobio-acute-pbmc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/noco-cobio-acute-pbmcs/count",
+      "handler": "noco-cobio-acute-pbmc.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/noco-cobio-acute-pbmcs/:id",
+      "handler": "noco-cobio-acute-pbmc.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/noco-cobio-acute-pbmcs",
+      "handler": "noco-cobio-acute-pbmc.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/noco-cobio-acute-pbmcs/:id",
+      "handler": "noco-cobio-acute-pbmc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/noco-cobio-acute-pbmcs/:id",
+      "handler": "noco-cobio-acute-pbmc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

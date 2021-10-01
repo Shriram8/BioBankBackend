@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "noco_cobio_acute_saliva_samples",
+  "info": {
+    "name": "Noco_Cobio_Acute_Saliva_Samples",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "record_id": {
+      "type": "string"
+    },
+    "visit_date": {
+      "type": "date"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "Saliva_Sample_with_VTM": {
+      "type": "integer"
+    },
+    "saliva_VTM_location": {
+      "type": "string"
+    },
+    "Saliva_Sample_No_VTM": {
+      "type": "string"
+    },
+    "Saliva_PCR_Results": {
+      "type": "float"
+    },
+    "Saliva_PCR_Results_comments": {
+      "type": "string"
+    },
+    "Filtered_saliva_PCR_results": {
+      "type": "float"
+    },
+    "Filtered_saliva_PCR_results_comments": {
+      "type": "string"
+    },
+    "Plaque_Assay_Titer_PFU_ml": {
+      "type": "biginteger"
+    },
+    "Plaque_Assay_Ct_Value": {
+      "type": "float"
+    }
+  }
+}

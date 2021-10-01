@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "noco_cobio_control_stools",
+  "info": {
+    "name": "Noco_Cobio_Control_Stool"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "record_id": {
+      "type": "string"
+    },
+    "visit_number": {
+      "type": "integer"
+    },
+    "date_visit": {
+      "type": "date"
+    },
+    "stool_sample": {
+      "type": "string"
+    },
+    "stool_tube_number": {
+      "type": "integer"
+    },
+    "stool_labels_rna_or_dna": {
+      "type": "string"
+    },
+    "stool_rna_pcr_ebbel_lab": {
+      "type": "string"
+    },
+    "ddPCR_RNA_StoolCarol_Lab": {
+      "type": "string"
+    },
+    "stool_comments": {
+      "type": "string"
+    }
+  }
+}

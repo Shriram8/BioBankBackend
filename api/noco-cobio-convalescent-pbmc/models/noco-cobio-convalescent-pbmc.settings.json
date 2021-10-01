@@ -1,0 +1,91 @@
+{
+  "kind": "collectionType",
+  "collectionName": "noco_cobio_convalescent_pbmcs",
+  "info": {
+    "name": "Noco_Cobio_Convalescent_PBMC",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "record_id": {
+      "type": "string"
+    },
+    "date_visit": {
+      "type": "date"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "blood_sample": {
+      "type": "string"
+    },
+    "blood_sample_comment": {
+      "type": "string"
+    },
+    "tubes": {
+      "type": "integer"
+    },
+    "tubes_comment": {
+      "type": "string"
+    },
+    "PBMC": {
+      "type": "integer"
+    },
+    "PBMC_comment": {
+      "type": "string"
+    },
+    "PBMC_location": {
+      "type": "string"
+    },
+    "platelet_panel_1": {
+      "type": "integer"
+    },
+    "platelet_comment_1_comment": {
+      "type": "string"
+    },
+    "platelet_panel_2": {
+      "type": "string"
+    },
+    "platelet_panel_2_comment": {
+      "type": "string"
+    },
+    "platelet_panel_3": {
+      "type": "integer"
+    },
+    "platelet_panel3_comment": {
+      "type": "string"
+    },
+    "whole_blood_panel": {
+      "type": "integer"
+    },
+    "PBMC_panel": {
+      "type": "integer"
+    },
+    "PBMC_panel_comment": {
+      "type": "string"
+    },
+    "plasma_in_ml": {
+      "type": "decimal"
+    },
+    "plasma_in_ml_comment": {
+      "type": "string"
+    },
+    "serum_in_micro_litres": {
+      "type": "string"
+    },
+    "serum_in_micro_litres_comment": {
+      "type": "string"
+    },
+    "cell_count_per_tube": {
+      "type": "float"
+    },
+    "cell_count_per_million": {
+      "type": "float"
+    }
+  }
+}

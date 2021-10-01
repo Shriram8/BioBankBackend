@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "noco_cobio_convalescent_nasalphargenals",
+  "info": {
+    "name": "Noco_Cobio_Convalescent_Nasalphargenal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "record_id": {
+      "type": "string"
+    },
+    "date_visit": {
+      "type": "date"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "np_sample": {
+      "type": "integer"
+    },
+    "NP_PCR_result": {
+      "type": "string"
+    },
+    "plaque_assay_titer_PFU_mL": {
+      "type": "biginteger"
+    },
+    "plaque_assay_Ct_value": {
+      "type": "integer"
+    }
+  }
+}

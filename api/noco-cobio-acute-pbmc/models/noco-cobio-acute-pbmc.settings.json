@@ -1,0 +1,87 @@
+{
+  "kind": "collectionType",
+  "collectionName": "noco_cobio_acute_pbmcs",
+  "info": {
+    "name": "Noco_Cobio_Acute_PBMC"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "record_id": {
+      "type": "string"
+    },
+    "visit_date": {
+      "type": "date"
+    },
+    "visit_count": {
+      "type": "integer"
+    },
+    "blood_sample": {
+      "type": "integer"
+    },
+    "blood_tubes": {
+      "type": "integer"
+    },
+    "blood_tubes_comment": {
+      "type": "string"
+    },
+    "PBMC_no_of_tubes": {
+      "type": "decimal"
+    },
+    "PBMC_comment": {
+      "type": "string"
+    },
+    "PBMC_location": {
+      "type": "string"
+    },
+    "platelet_panel1": {
+      "type": "integer"
+    },
+    "platelet_panel_comment": {
+      "type": "string"
+    },
+    "platelet_panel2": {
+      "type": "integer"
+    },
+    "platelet_panel2_comment": {
+      "type": "string"
+    },
+    "platelet_panel3": {
+      "type": "integer"
+    },
+    "platelet_panel3_comment": {
+      "type": "string"
+    },
+    "whole_blood_panel": {
+      "type": "integer"
+    },
+    "PBMC_panel": {
+      "type": "integer"
+    },
+    "PBMC_panel_comment": {
+      "type": "string"
+    },
+    "plasma_in_ml": {
+      "type": "integer"
+    },
+    "plasma_in_ml_comment": {
+      "type": "string"
+    },
+    "serum_in_micro_ml": {
+      "type": "integer"
+    },
+    "serum_in_micro_ml_comment": {
+      "type": "string"
+    },
+    "cell_count_per_tube": {
+      "type": "biginteger"
+    },
+    "cell_count_total": {
+      "type": "biginteger"
+    }
+  }
+}
